@@ -111,14 +111,14 @@ export default {
     getData() {
       const arr = [1, 2, 3]
       console.log(arr)
-      let obj = { a: 1, b: 2 }
+      let obj = { a: 1, 
+      b: 2 }
       console.log(obj)
       let aaa = 'bb'
       console.log(aaa)
     },
     aaa() {
-      this.hello()
-        .then(() => {
+      this.hello().then(() => {
           this.something()
         })
         .catch(console.error)
