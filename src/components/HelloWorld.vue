@@ -109,7 +109,8 @@ export default {
   },
   methods: {
     getData() {
-      const arr = [1, 2, 3]
+      const arr = [1, 2,
+       3]
       console.log(arr)
       let obj = { a: 1, 
       b: 2 }
@@ -118,7 +119,8 @@ export default {
       console.log(aaa)
     },
     aaa() {
-      this.hello().then(() => {
+      this.hello()
+        .then(() => {
           this.something()
         })
         .catch(console.error)
