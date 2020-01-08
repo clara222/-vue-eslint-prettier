@@ -12,7 +12,11 @@ module.exports = {
     node: true,
     es6: true
   },
-  extends: ['plugin:vue/essential', 'plugin:prettier/recommended', 'eslint:recommended'],
+  extends: [
+    'plugin:vue/essential',
+    'plugin:prettier/recommended',
+    'eslint:recommended'
+  ],
   plugins: ['babel', 'prettier'],
   rules: {
     'prettier/prettier': [

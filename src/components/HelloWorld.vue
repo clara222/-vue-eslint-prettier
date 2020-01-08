@@ -112,8 +112,8 @@ export default {
       const arr = [1, 2,
        3]
       console.log(arr)
-      let obj = { a: 1, 
-      b: 2 }
+      let obj = { a: 1,
+       b: 2 }
       console.log(obj)
       let aaa = 'bb'
       console.log(aaa)
