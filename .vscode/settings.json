@@ -1,0 +1,47 @@
+{
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Atom Material Theme",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "400",
+  "editor.lineHeight": 24,
+  "editor.letterSpacing": 0.5,
+  "files.autoSave": "afterDelay",
+  "editor.detectIndentation": false,
+  // #重新设定tabsize
+  "editor.tabSize": 2,
+  // 保存的时候按eslint格式化文件
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  // 添加 vue 支持
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "html"
+  ],
+  "vetur.format.options.tabSize": 2,
+  "vetur.format.options.useTabs": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false, //不加分号
+      "singleQuote": true, //用单引号
+      "eslintIntegration": true, //让prettier使用eslint的代码格式进行校验
+      "bracketSpacing": true, // 在对象，对象括号与文字之间加空格 "{ foo: bar }"
+      "jsxBracketSameLine": true, //在jsx中把'>'是否单独放一行
+      "htmlWhitespaceSensitivity": "ignore"
+    }
+  },
+  //  #让函数(名)和后面的括号之间加个空格
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  //  #解决vsCode打开新的文件会覆盖窗口中的原文件
+  "workbench.editor.enablePreview": false,
+  //  #vscode设置支持jsx支持emmet
+  "emmet.triggerExpansionOnTab": true,
+  //  #VScode设置jsx语法自动补全
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "todo-tree.highlights.enabled": false,
+  "git.autofetch": true,
+}
